@@ -17,9 +17,8 @@ FROM users
 Resultado:
 Devuelve toda la información de todos los usuarios.
 */
-
 SELECT *
-FROM users;
+FROM   users;
 
 /*
 ==========================================
@@ -36,9 +35,8 @@ FROM users
 Resultado:
 Se mostrará únicamente el nombre de cada usuario.
 */
-
 SELECT name
-FROM users;
+FROM   users;
 
 /*
 ==========================================
@@ -59,6 +57,6 @@ FROM users
 Resultado:
 Solo aparecerán el ID del usuario y su nombre.
 */
-
-SELECT user_id, name
-FROM users;
+SELECT user_id,
+       name
+FROM   users;

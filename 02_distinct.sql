@@ -19,9 +19,8 @@ solo se mostrará una.
 Nota:
 DISTINCT compara toda la fila cuando se utiliza junto con *.
 */
-
 SELECT DISTINCT *
-FROM users;
+FROM   users;
 
 /*
 ==================================================
@@ -62,6 +61,5 @@ Uso:
 Muy útil para conocer los valores diferentes que existen en una columna,
 como edades, ciudades, países, categorías o estados.
 */
-
 SELECT DISTINCT age
-FROM users;
+FROM   users;
